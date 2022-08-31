@@ -3,8 +3,9 @@ public class Main {
         //==============FirstTask==============
         System.out.println("==============FirstTask==============");
         int[] arr = generateRandomArray();
-        int sum = 0;
-        for (int i = 0; i < 30; i++) {
+
+        double sum = 0;
+        for (int i = 0; i < arr.length; i++) {
             sum += arr[i];
         }
         System.out.println("Сумма трат за месяц составила " + sum + " рублей.");
@@ -12,7 +13,7 @@ public class Main {
         System.out.println("==============SecondTask==============");
         int numMax = 0;
         int numMin = 0;
-        for (int i = 0; i < 30; i++) {
+        for (int i = 0; i < arr.length; i++) {
             if (arr[i] > numMax) {
                 numMax = arr[i];
             }
