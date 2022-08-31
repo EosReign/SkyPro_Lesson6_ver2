@@ -28,7 +28,7 @@ public class Main {
         System.out.println("Максимальная сумма трат за день составила " + numMax + " рублей.");
         //==============ThirdTask==============
         System.out.println("==============ThirdTask===============");
-        double averageNum = sum / 30;
+        double averageNum = sum / arr.length;
         //Нашел пока только такой метод округления до опред. цифры после запятой
         String resAveNum = String.format("%.2f", averageNum);
         System.out.println("Средняя сумма трат за месяц составила " + resAveNum + " рублей.");
