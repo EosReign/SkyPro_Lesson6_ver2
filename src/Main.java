@@ -29,7 +29,9 @@ public class Main {
         //==============ThirdTask==============
         System.out.println("==============ThirdTask===============");
         double averageNum = sum / 30;
-        System.out.println("Средняя сумма трат за месяц составила " + averageNum + " рублей.");
+        //Нашел пока только такой метод округления до опред. цифры после запятой
+        String resAveNum = String.format("%.2f", averageNum);
+        System.out.println("Средняя сумма трат за месяц составила " + resAveNum + " рублей.");
         //==============FourthTask==============
         System.out.println("==============FourthTask==============");
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
